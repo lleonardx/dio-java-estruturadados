@@ -21,9 +21,5 @@ public class Main {
         System.out.println(minhaFila.first());
         System.out.println(minhaFila);
 
-
-
-
-
     }
 }
