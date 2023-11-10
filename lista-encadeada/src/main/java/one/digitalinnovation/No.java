@@ -8,7 +8,6 @@ public class No<T> {
         this.proximoNo = null;
     }
     public No(T conteudo) {
-        this.proximoNo = null;
         this.conteudo = conteudo;
     }
 
@@ -20,7 +19,6 @@ public class No<T> {
     public T getConteudo() {
         return conteudo;
     }
-
     public void setConteudo(T conteudo) {
         this.conteudo = conteudo;
     }
@@ -28,22 +26,17 @@ public class No<T> {
     public No getProximoNo() {
         return proximoNo;
     }
-
     public void setProximoNo(No proximoNo) {
         this.proximoNo = proximoNo;
     }
 
     @Override
     public String toString() {
-        return "No{" +
-                "conteudo=" + conteudo +
-                '}';
+        return "No{" + conteudo +'}';
     }
 
     public String toStringEncadeado(){
-        String str = "No{" +
-                "conteudo=" + conteudo +
-                '}';
+        String str = "No{" + conteudo + '}';
 
         if(proximoNo != null){
             str += "->" + proximoNo.toString();
