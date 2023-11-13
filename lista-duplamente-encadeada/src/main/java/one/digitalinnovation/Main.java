@@ -21,9 +21,5 @@ public class Main {
         System.out.println(minhaListaEncadeada);
         System.out.println(minhaListaEncadeada.get(3));
 
-
-
-
-
     }
 }
