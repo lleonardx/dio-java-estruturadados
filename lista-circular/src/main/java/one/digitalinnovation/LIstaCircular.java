@@ -1,10 +1,10 @@
 package one.digitalinnovation;
 
-public class LIstaCircular<T> {
+public class ListaCircular<T> {
     private No<T> cabeca;
     private No<T> cauda;
     private int tamanhoLista;
-    public LIstaCircular(){
+    public ListaCircular(){
         this.cauda = null;
         this.cabeca = null;
         this.tamanhoLista = 0;
